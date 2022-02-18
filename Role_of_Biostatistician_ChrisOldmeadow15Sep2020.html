@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Chris Oldmeadow, HMRI">
+  <meta name="dcterms.date" content="2020-09-15">
+  <title>The role of the biostatistician</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="./reveal.js/dist/reset.css">
+  <link rel="stylesheet" href="./reveal.js/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="./reveal.js/dist/theme/black.css" id="theme">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-background-image="hmri.jpg" data-background-opacity="0.8" data-background-size="contain">
+  <h1 class="title">The role of the biostatistician</h1>
+  <p class="subtitle">Applying statistical methods in research</p>
+  <p class="author">Chris Oldmeadow, HMRI</p>
+  <p class="date">September 15, 2020</p>
+</section>
+
+<section id="hmri-research-design-and-statistical-services" class="title-slide slide level1" data-background-image="creditss.jpg" data-background-opacity="0.4">
+<h1 data-background-image="creditss.jpg" data-background-opacity="0.4">HMRI Research Design and Statistical Services</h1>
+
+</section>
+
+<section id="biostatistics" class="title-slide slide level1">
+<h1>Biostatistics</h1>
+<p>" To call a biostatistician after the experiment is done may be no more than asking him to perform a post mortem examination: he may be able to say what the experiment died of" - Ronald Fisher <img data-src="ronald_fisher.jpg" alt="image" /></p>
+</section>
+
+<section>
+<section id="common-causes-of-study-deaths" class="title-slide slide level1" data-background-color="rgb(70, 70, 255)">
+<h1 data-background-color="rgb(70, 70, 255)">Common causes of study deaths</h1>
+
+</section>
+<section id="incorrect-study-design" class="slide level2">
+<h2>Incorrect Study Design</h2>
+<ul>
+<li>Selection bias</li>
+<li>Contamination and clustering</li>
+<li>Randomisation</li>
+<li>Pilot studies</li>
+</ul>
+</section>
+<section id="failure-to-consider-measure-confounding-variables" class="slide level2">
+<h2>Failure to consider / measure confounding variables</h2>
+<ul>
+<li>Stratify or adjust</li>
+<li>Causal modelling</li>
+</ul>
+</section>
+<section id="insufficient-sample-size" class="slide level2">
+<h2>Insufficient sample size</h2>
+<ul>
+<li>Depends on:
+<ul>
+<li>Outcome types and study design</li>
+<li>Clinically relevant difference</li>
+<li>Variability in the data</li>
+<li>Power and Type 1 error</li>
+</ul></li>
+</ul>
+</section>
+<section id="using-excel-to-collect-the-data" class="slide level2">
+<h2>Using excel to collect the data</h2>
+<p><img data-src="redcap.png" alt="redcap" /> simple survey through to RCT free, easy-to-use, secure, ICH-GCP compliant</p>
+</section>
+<section id="failure-to-pre-specify-an-analysis-plan" class="slide level2">
+<h2>Failure to pre-specify an analysis plan</h2>
+<ul>
+<li>increasingly a requirement to publish</li>
+</ul>
+</section></section>
+<section>
+<section id="how-else-can-we-help" class="title-slide slide level1">
+<h1>How else can we help</h1>
+
+</section>
+<section id="visualisations-and-dashboards" class="slide level2">
+<h2>Visualisations and dashboards</h2>
+<ul>
+<li>Interactive dashboards using real time data</li>
+<li>Display recruitment rates, missing data, subject dispositions</li>
+</ul>
+</section>
+<section id="more-than-just-point-and-click" class="slide level2">
+<h2>More than just point and click</h2>
+<p><img data-src="dog.jpg" alt="dog" /> - understanding the different options - how to check if the results make sense - what to do if they dont</p>
+</section>
+<section id="reproducibility" class="slide level2">
+<h2>Reproducibility</h2>
+<ul>
+<li>self contained code that will
+<ul>
+<li>clean data and create analysis datasets</li>
+<li>run all analysis</li>
+<li>produce the tables and graphs</li>
+<li>integrated into the report</li>
+</ul></li>
+<li>eliminates transcription errors</li>
+<li>ensures results reproducible in 5, 10 years</li>
+</ul>
+</section>
+<section id="how-to-contact-us" class="slide level2">
+<h2>How to contact us</h2>
+<ul>
+<li>https://redcap.link/creditssservicerequest</li>
+</ul>
+</section></section>
+    </div>
+  </div>
+
+  <script src="./reveal.js/dist/reveal.js"></script>
+
+  // reveal.js plugins
+  <script src="./reveal.js/plugin/notes/notes.js"></script>
+  <script src="./reveal.js/plugin/search/search.js"></script>
+  <script src="./reveal.js/plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>
